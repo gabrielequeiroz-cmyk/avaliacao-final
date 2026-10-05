@@ -1,19 +1,59 @@
-# React + Vite
+# Portfólio NFT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Estudantes:** Gabriele, Sarah e Felipe
 
-Currently, two official plugins are available:
+**Turma:** Info 6B
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Este projeto apresenta uma coleção de NFTs em formato de cards, com um layout responsivo para diferentes tamanhos de tela.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+O projeto foi desenvolvido como parte do desafio de Portfólio 1.0, utilizando React, JavaScript e CSS.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- CSS
+- Animate.css
+- Git
+- GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Exibição de cards de NFTs
+- Imagens diferentes para cada NFT
+- Informações diferentes para cada NFT
+- Layout responsivo
+- Animações com Animate.css
+- Efeitos de hover nos cards
+- Header com navegação
+- Logo personalizada
+
+## Estrutura do projeto
+
+```text
+src/
+├── components/
+│   ├── CardNFT/
+│   │   ├── CardNFT.jsx
+│   │   └── CardNFT.css
+│   │
+│   ├── CardList/
+│   │   ├── CardList.jsx
+│   │   └── CardList.css
+│   │
+│   └── Header/
+│       ├── Header.jsx
+│       └── Header.css
+│
+├── App.jsx
+└── App.css
+
+public/
+└── images/
+    ├── nft1.png
+    ├── nft2.png
+    ├── nft3.png
+    └── logo.png
